@@ -1,12 +1,11 @@
 const express = require('express');
 const path = require('path');
-var fs = require('fs');
-var HtmlDocx = require('html-docx-js');
+const fs = require('fs');
+const HtmlDocx = require('html-docx-js');
 const Style = require('./html/style');
 const TitlePage = require('./html/title-page');
 const SecondPage = require('./html/second-page');
 
-const router = express.Router();
 const app = express();
 const port = 5000;
 
